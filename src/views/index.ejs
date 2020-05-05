@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet">
+    <title>Calcular Nota</title>
+</head>
+<body>
+    <h1>Calcular Nota</h1>
+    <form method="POST" action="/">
+        <p>
+            <label>Nome:</label><input class="innome" type="text" name="nome">
+        </p>
+        <p>
+            <label>Data de Nascimento:</label><input class="indata" type="text" name="data">
+        </p>
+        <p>
+            <label>Nota 1:</label><input class="innota1" type="text" name="nota1">
+        </p>
+        <p>
+            <label>Nota 2:</label><input class="innota2" type="text" name="nota2">
+        </p>
+        
+        <button class="btn">Cadastrar</button>
+    </form>
+    <table>
+        <tr><td class="nome">Nome</td><td class="data">Nascimento</td><td class="nota1">Nota 1</td><td class="nota2">Nota 2</td><td class="media">Média</td></tr>
+    </table>
+    <script type="text/javascript" src="scripts/script.js"></script>
+</body>
+</html>

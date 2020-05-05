@@ -1,0 +1,65 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+    background-color: #720fce;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+}
+h1{
+    font-size: 32pt;
+}
+label{
+    margin: 5px;
+    font-size: 15pt;
+}
+.innome, .indata, .innota1, .innota2{
+    width: 300px;
+    height: 30px;
+    font-size: 15pt;
+    border-radius: 5px;
+    border: none;
+}
+.indata{
+    width: 150px;
+}
+.innota1, .innota2{
+    width: 70px;
+}
+button{
+    width: 100px;
+    height: 30px;
+    font-size: 15pt;
+    background-color: #009619;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+}
+table{
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+td{
+    border-right: 1px solid #333;
+    text-align: center;
+    font-size: 15pt;
+    color: #333;
+}
+.nome{
+    width: 300px;
+}
+.data{
+    width: 150px;
+}
+.nota1, .nota2{
+    width: 70px;
+}
+.media{
+    border: none;
+}
