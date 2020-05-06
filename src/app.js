@@ -15,8 +15,8 @@ app.use(express.static('public'));
 //app.use(expressLayouts);
 
     //BodyParser
-app.use(bodyParser.json())
-app.use(bodyParser.urlencoded({extended: false}))
+    app.use(bodyParser.urlencoded({extended: true}))
+    app.use(bodyParser.json())
 
 //Carregar Rotas
 const index = require('./routes/index')

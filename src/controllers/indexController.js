@@ -1,7 +1,9 @@
 exports.get = (req, res) => {
-    res.status(200).render('index');
+    res.status(200).send()
+
 };
 
 exports.post = (req, res) => {
-    res.status(200).redirect('/')
+    const nomeUser = req.body;
+    res.send(nomeUser)
 };
